@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="vie">
+<head>
+<meta charset="utf-8">
+<title>Học web chuẩn</title>
+<link rel="stylesheet" href="/exercises/css/fontawesome.css" media="all">
+</head>
+<style>
+    table, th, td{
+        border: 1px solid red;
+        size: 2cm;
+        width: 100;
+        height: 100;
+        border-collapse: collapse;
+    }
+</style>
+<body>
+<div class="contact-form">
+        <h2 style="text-align:center; color: chocolate;">Đăng nhập</h2>
+        <form method="" action="">
+            <table style="background-color: rgb(87, 160, 209); margin: auto;">
+                <tr>
+                    <th>Mã người dùng</th>
+                    <th><input type="text" name="name" placeholder="Your Name" value="" id="h1"></th>
+                </tr>
+                <tr>
+                    <td><b>Mật khẩu</b></td>
+                    <td><input type="password" name="password" placeholder="Password" value=""></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><p class="submit-btn"><button type="submit" style="margin-left: 3cm;"onclick="myFunction()">Đồng ý</button></p></td>
+                </tr>
+                <tr>
+                    <td colspan="2" id="h2"></td>
+                </tr>
+                <script>
+                    function myFunction() {
+                    document.getElementById("h2").value = document.getElementById("h1").value;
+                    }
+                    </script>
+            </table>
+        </form>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

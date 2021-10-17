@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="vie">
+<head>
+<title>Tạo ifame</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  background-color: rgb(54, 45, 189);
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+nav {
+  float: left;
+  width: 30%;
+  height: 300px;
+  background: rgb(122, 199, 212);
+  padding: 20px;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding:0%;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 200px;
+}
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+<header>
+  <h2>Bài tập NGÔN NGỮ HTML</h2>
+</header>
+<section>
+  <nav>
+    <ul>
+        <li><a href="./bai1.html"target="iframe_a">Bai01 - Các tag cơ bản</a></li>
+        <li><a href="./bai2.html" target="iframe_a">Bai02 - Các tag cơ bản, có định dạng</a></li>
+        <li><a href="./bai3.html" target="iframe_a">Bai03 - Định dạng trang web</a></li>
+        <li><a href="./bai4.html" target="iframe_a">Bai04 - Định dạng trang web(tt)</a></li>
+        <li><a href="./bai5.html" target="iframe_a">Bai05 - Định dạng văn bản</a></li>
+        <li><a href="./bai6.html" target="iframe_a">Bai06 - Định dạng văn bản(tt)</a></li>
+        <li><a href="./bai7.html" target="iframe_a">Bai07 - Hình ảnh, liên kết, danh sách và ký tự đặc biệt </a></li>
+        <li><a href="./bai8.html" target="iframe_a">Bai08 - Tạo bảng</a></li>
+        <li><a href="./bai9.html" target="iframe_a">Bai09 - Tạo bảng, có trộn dòng và cột</a></li>
+        <li><a href="./bai10.html"target="iframe_a" >Bai10 - Tạo bảng, có trộn dòng và cột(tt)</a></li>
+        <li><a href="./bai11.html"target="iframe_a">Bai11 - Tạo form và các điều khiển</a></li>
+        <li><a href="./bai12.html"target="iframe_a">Bai12 - Tạo form và các điều khiển(tt)</a></li>
+        <li><a href="./bai13.html"target="iframe_a">Bai13 - Tạo form và các điều khiển(tt)</a></li>
+    </ul>
+  </nav>
+   <article>
+    <iframe src="" name="iframe_a" height="300px" width="100%" title="Iframe Example"></iframe>
+  </article>
+</section>
+</body>
+</html>
